@@ -1,15 +1,5 @@
 $(function(){
 
-  //SCROLL OFF
-
-  let scrollController = {
-    disabledScroll() {
-      document.body.style.cssText = `overflow: hidden`;
-    },
-  }
-  
-  scrollController.disabledScroll(); 
-  
   //ACTIVE NAVIGATION BUTTONS
 
   const observer = new IntersectionObserver((entries) => {
